@@ -416,7 +416,7 @@ def check_s3_data(session: boto3.Session, username: str):
             )
 
         # Check for expected fields
-        expected_fields = ["title", "views", "rank", "date", "retrieved_at"]
+        expected_fields = ["article", "views", "rank", "date", "retrieved_at"]
         missing_fields = [f for f in expected_fields if f not in record]
         if missing_fields:
             fail_mark(f"Missing fields in data: {missing_fields}")
