@@ -780,7 +780,7 @@ def verify_athena_query(session: boto3.Session, username: str):
     check_mark(f"Athena query executed successfully ({row_count} rows returned)")
 
     # Check for expected columns
-    expected_columns = ["title", "views", "rank", "date"]
+    expected_columns = ["article", "views", "rank", "date"]
     missing_columns = [col for col in expected_columns if col not in columns]
 
     if missing_columns:
