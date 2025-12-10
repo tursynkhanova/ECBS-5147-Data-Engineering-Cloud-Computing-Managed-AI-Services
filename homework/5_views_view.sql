@@ -1,6 +1,6 @@
 CREATE VIEW aruzhan.views AS
     SELECT
-        article,
+        title,
         views,
         rank,
         date,

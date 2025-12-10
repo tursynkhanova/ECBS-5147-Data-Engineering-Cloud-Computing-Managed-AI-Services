@@ -34,7 +34,7 @@ def lambda_handler(event, context):
     json_lines = ""
     for page in most_views:
         record = {
-            "article": page["article"],
+            "title": page["article"],
             "views": page["views"],
             "rank": page["rank"],
             "date": date.strftime("%Y-%m-%d"),

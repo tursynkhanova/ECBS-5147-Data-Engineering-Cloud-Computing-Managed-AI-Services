@@ -1,6 +1,6 @@
 CREATE EXTERNAL TABLE
 aruzhan.raw_views (
-    article STRING,
+    title STRING,
     views INT,
     rank INT,
     date DATE,
