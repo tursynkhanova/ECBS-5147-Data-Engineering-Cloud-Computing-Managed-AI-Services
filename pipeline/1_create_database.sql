@@ -2,5 +2,6 @@
 -- Example: CREATE DATABASE johndoe
 -- No hyphens allowed in database names! Use underscores if needed.
 
-CREATE DATABASE <username>
+CREATE DATABASE <aruzhan>
+
 
